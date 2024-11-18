@@ -1,0 +1,119 @@
+body {
+    background-color: #2e2e2e;
+    color: #f0f0f0;
+    font-family: 'Nunito', serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #4caf50;
+    text-decoration: none;
+    font-family: 'Nunito', serif;
+}
+
+a:hover {
+    color: #76d275;
+    font-family: 'Nunito', serif;
+}
+
+header {
+    background: #1f1f1f;
+    color: #f0f0f0;
+    padding: 2rem 0;
+    font-family: 'Nunito', serif;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-family: 'Nunito', serif;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #cccccc;
+    font-family: 'Nunito', serif;
+}
+
+nav {
+    background: #1f1f1f;
+    font-family: 'Nunito', serif;
+}
+
+nav a {
+    padding: 0.8rem 1rem;
+    display: inline-block;
+    font-family: 'Nunito', serif;
+}
+
+main {
+    padding: 2rem;
+    font-family: 'Nunito', serif;
+}
+
+footer {
+    background: #1f1f1f;
+    color: #cccccc;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+    font-family: 'Nunito', serif;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    font-family: 'Nunito', serif;
+}
+
+ul li {
+    margin: 0.5rem 0;
+    font-family: 'Nunito', serif;
+}
+
+.custom-img {
+    max-width: 80%; 
+    height: 350px; 
+    margin: 0 auto;
+    font-family: 'Nunito', serif;
+}
+
+.review-card {
+    background-color: #1a1a1a; /* Тёмно-серый цвет из шапки */
+    color: #ffffff; /* Белый текст */
+    height: 250px; /* Фиксированная высота для равенства */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    border: 1px solid #333; /* Лёгкая граница для эффекта */
+    border-radius: 8px; /* Закруглённые углы */
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Небольшая тень для объёмности */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Анимация при наведении */
+    font-family: 'Nunito', serif;
+}
+
+.review-card:hover {
+    transform: scale(1.05); /* Увеличение карточки при наведении */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.7); /* Более заметная тень */
+    font-family: 'Nunito', serif;
+}
+
+.review-card .card-title {
+    font-weight: bold;
+    color: #ffffff; /* Золотой цвет для заголовков */
+    font-family: 'Nunito', serif;
+}
+
+.review-card .card-text {
+    font-size: 0.9rem;
+    color: #cccccc; /* Серый цвет для текста */
+    font-family: 'Nunito', serif;
+}
+
+.navbar-nav {
+    color: #ffffff; /* Золотой цвет для выделенной ссылки */
+    font-weight: bold; /* Полужирный текст */ /* Нижняя граница */
+    font-family: 'Nunito', serif;
+}
